@@ -1,0 +1,367 @@
+/* 画面のスタイルシート */
+
+body{
+    font-family: Avenir;
+    margin: 0;
+    min-width: 1076px;
+}
+div{
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 0;
+}
+.midashi{
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.kasen{
+    margin:30px auto 20px auto;
+    text-align: center;
+}
+/* headerのスタイルシート */
+
+.block-header{
+    margin:0 0;
+    padding:10px 0;
+    border-bottom: medium solid #E04343;
+    z-index: 3;
+}
+.block-header img{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+/* TOPのスタイルシート */
+
+.top{
+    margin-top: -21px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.top img{
+    margin:0 auto;
+    padding:0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.name_huyuko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+
+.img-sp {
+    display: none;
+}
+
+
+/* aboutのスタイルシート */
+.about{
+    margin-top: -40px;
+    padding: 50px 20px;
+    font-family: Avenir;
+    background-color: #E04343;
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+}
+
+.about p{
+    margin-top:50px;
+}
+
+.about a{
+    text-decoration: none;
+    color:#ffffff;
+    text-align: center;
+}
+
+.mail{
+    margin-top: 50px;
+}
+
+.about img{
+    margin-top: 50px;
+}
+
+/* projectのスタイルシート */
+
+.project{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pro-midashi{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: #E04343;
+}
+
+.project-list{
+    list-style: none;
+    width:100%;
+    max-width:1076px;
+    margin:30px auto;
+    padding:0;
+}
+
+.project-list ul{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.li-twitter{
+    width: 100%;
+    max-width: 348px;
+    width: 348px;
+    float: left;
+    margin: 10px 26px 10px 10px; 
+    list-style: none;
+    color: #595959;
+}
+
+.li-twitter p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.li-netflix{
+    width: 100%;
+    max-width: 348px;
+    float: left;
+    margin: 10px 26px 10px 26px; 
+    list-style: none;
+    color: #595959;
+}
+
+.li-netflix p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.project-list li img{
+    width: 100%;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: 15px;
+}
+
+.link a{
+    background-color: #E04343;
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Contact_Meのスタイルシート */
+
+.contact_me{
+    float: right;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: #595959;
+}
+
+.kasen-2{
+    display: block;
+    text-align: center;   
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.li-phone{
+    width: 100%;
+    max-width: 348px;
+    float: left;
+    margin: 10px 26px 10px 10px; 
+    list-style: none;
+    color: #595959;
+}
+
+.li-email{
+    width: 100%;
+    max-width: 348px;
+    float: left;
+    margin: 10px 26px 10px 26px; 
+    list-style: none;
+    color: #595959;
+}
+
+/* footerのスタイルシート */
+.block-footer p{
+    width: 100%;
+    display: block;
+    clear: both;
+    color: #595959;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    padding: 30px 0 10px 0;
+    border-top: medium solid #E04343;
+}
+
+@media only screen and (max-width:767px){
+    body{
+        width: 100%;
+        font-family: Avenir;
+        margin: 0;
+        min-width: auto;
+    }
+
+    p{
+        font-size:x-large;
+    }
+
+    block-header{
+        width: 100%;
+    }
+
+
+    /* topの画像 */
+
+    .top{
+        width: 100%;
+    }
+
+    .top img{
+        margin:0 auto;
+        padding:0 auto;
+        position: relative;
+        max-width: 100%;
+        z-index: 1;
+    }
+
+    .top h1 img{
+        margin:0 auto;
+        padding:0 auto; 
+        position: relative;
+        z-index: 1;
+    }
+
+    .name_huyuko{
+        z-index: 1;
+    }
+
+    .img-pc {
+        display: none;
+        max-width: 100%;
+    }
+
+    .img-sp {
+        display: block;
+        max-width: 100%;
+    }
+
+    .name-sp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 20px auto 0 auto;
+        max-width: 100%;
+        z-index: 1; 
+        text-align: center;
+    }
+
+    /* projectの@media */
+
+    .project-list{
+        /* max-width: 100%; */
+        width: 100%;
+    }
+    .li-twitter,.li-netflix{
+        max-width: 100%;
+        float: none;
+    }
+    .project-list li img{
+        /* max-width: 100%; */
+    }
+    
+
+    .li-twitter{
+        /* max-width: 100%; */
+        width: 100%;
+        margin: 10px auto; 
+        list-style: none;
+        color: #595959;
+    }
+    
+    .li-twitter p{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .li-netflix{
+        /* max-width: 100%; */
+        margin: 10px auto; 
+        list-style: none;
+        color: #595959;
+    }
+    
+    .li-netflix p{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .link{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .link a{
+        background-color: #E04343;
+        padding: 20px auto;
+        margin: 30px 10px;
+        font-size: 30px;
+        text-decoration: none;
+        color: #ffffff;
+        max-width: 100%;
+    }
+
+    /*  contactの@media  */
+
+    .li-phone{
+        max-width: 100%;
+        margin: 10px auto; 
+        list-style: none;
+        color: #595959;
+    }
+    
+    .li-email{
+        max-width: 100%;
+        margin: 70px auto; 
+        list-style: none;
+        color: #595959;
+    }
+
+
+}
